@@ -11,7 +11,7 @@ body {
   font-family: "Oswald", sans-serif;
   font-size: 62.5%;
   background-color: rgb(0, 0, 0);
-  background-image: url(https://user-images.githubusercontent.com/99215486/175369409-b967da5b-e373-48ea-b8f5-8ed3d613df03.gif);
+  background-image: url("Image/vikas12024715_1920_1080_30fps.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -38,6 +38,7 @@ h1{
 .search input {
   padding: 0.5rem 1rem;
   width: 100%;
+  border-radius: 10px;
 }
 .search input:focus-visible {
   outline: 1px solid rgb(59, 57, 57);
@@ -46,11 +47,13 @@ h1{
 .primary-btn {
   background: rgb(242, 240, 242);
   color: rgb(1, 1, 1);
+  border: 2px soiled black;
+  border-radius: 10px;
   padding: 0.5rem 1rem;
-  border: none;
+  
 }
 .primary-btn:hover {
-  background: rgba(58, 56, 58, 0.788);
+  background: rgba(116, 114, 116, 0.788);
 }
 .primary-btn:active {
   background: rgba(42, 41, 42, 0.788);
@@ -60,10 +63,11 @@ h1{
 }
 .profile-box {
   margin: auto;
+  color:white;
   padding: 4rem 2rem;
   width: 90%;
   max-width: 78rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1rem rgb(245, 243, 243);
   transition: 0.5s ease-in;
 }
 .profile-box:hover {
